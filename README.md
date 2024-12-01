@@ -11,6 +11,10 @@
   <p align="center"> 
   <img src="HeaderImage.png">
 </p>
+The files in this directory demonstrate how to analyze functionally graded whiskers in various loading scenarios using the nonlinear finite element platforms Abaqus using a streamlined workflow with minimal manual intervention. Running one of the scripts in this folder will trigger a series of automated processes that allow users to reproduce the results presented in this paper, or to analyze similar problems on their own. For academic work, the free but node-limited Abaqus Learning Edition is a viable replacement for a full Abaqus license, provided that mesh sizes are kept small. A full description of these processes is included in Supplemental Information.
+
+Simulation setup (meshing, material property assignment, boundary condition application, etc.) is performed programmatically in MATLAB. Simulations are executed automatically at the command line using MATLAB functions, and upon completion results are retrieved and processed. Finally, figures are generated from the processed data and prepared for export using MATLAB.
+</p>
 This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
 </p>
 
