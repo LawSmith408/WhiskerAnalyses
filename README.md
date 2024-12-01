@@ -1,21 +1,20 @@
-# ARIADNE: Adhesive, Resonant Interface for Applying Directional Nudges Effectively
-:star: [Link to preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006211)
+# Functionally Graded Whisker Finite Element Simulation from paper: Functionally graded keratin facilitates tactile sensing in elephant whiskers (Submitted)
 
-This is a PlatformIO-based project for the ARIADNE vibrotactile motion guidance system.
-For information on the hardware and to find the full bill of materials used in this project, please refer to https://doi.org/10.17617/3.X62OQZ.
+This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
 
 Citation:  
-Rokhmanova, Nataliya and Martus, Julian and Faulkner, Robert and Fiene, Jonathan and Kuchenbecker, Katherine J. and Administrator, Sneak Peek, ARIADNE: A Wearable Platform for Evaluating Vibrotactile Motion Guidance. Available at SSRN: https://ssrn.com/abstract=5006211 or http://dx.doi.org/10.2139/ssrn.5006211
+Schulz, Andrew Kyle; Kaufmann, Lena Valentina; Smith, Lawrence; Philip, Deepti; David, Hilda; Lazovic Zinnanti, Jelena; Brecht, Michael; Richter, Gunther; Kuchenbecker, Katherine J., 2024, "Data for: Functionally graded keratin facilitates tactile sensing in elephant whiskers", https://doi.org/10.17617/3.ROQPWZ
 
 ## Features 
 
-1. Control of DRV2605 (haptic drivers) over I2C.
-2. BLE setup for wirelessly cueing vibration stimuli.
-3. Streaming IIS3DWB accelerometer data via USB-CDC communication.
-5. Working with the MAX1704X lithium-polymer battery gauge for battery life monitoring.
-6. LED control functions.
+1. Construction of finite element methods for beams inspired by whisker geometry, porosity, and stiffness
+2. Static FE simulation for controlled tip displacement
+3. Static FE simulation for controlled tip force
+4. Dynamic FE simulation for natural frequency
+5. Dynamic FE simulation for frequency after beam is plucked. 
+6. Data visualizations of all of the above. 
 
-## Hardware Requirements and Getting Started
+## Required Dependencies for getting started. 
 
 Please refer to our hardware repository https://doi.org/10.17617/3.X62OQZ for additional material and resources.
 
