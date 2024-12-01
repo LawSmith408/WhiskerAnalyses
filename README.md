@@ -7,7 +7,9 @@
     <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz*</strong></a>
     ·
 </p>
-
+<p>
+  <p align="center"> 
+  <img src="HeaderImage.png">
 This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
 
 Citation:  
