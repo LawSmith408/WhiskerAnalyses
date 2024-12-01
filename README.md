@@ -28,13 +28,11 @@ This workflow has the following dependencies:
 
 | Dependency | Version (if applicable)|  Purpose | Link |
 |-------------|-------------------|---------|------------|
-| MATLAB | 2023A | For simulating and visualization | https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html | 
-
-MATLAB 			https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html
-Abaqus 			https://www.3ds.com/edu/education/students/solutions/abaqus-le
-Abaqus2Matlab		https://abaqus2matlab.wixsite.com/abaqus2matlab
-GibbonCode		https://www.gibboncode.org/Installation/
-nodewiseProcesses 	https://github.com/LawSmith408/nodewiseProcesses
+| MATLAB | 2023A | For command line prompt and visualization | https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html | 
+| Abaqus | XX | For FE simulating | https://www.3ds.com/edu/education/students/solutions/abaqus-le |
+| Abaqus2Matlab | XX | For connecting MATLAB and Abaqus | https://abaqus2matlab.wixsite.com/abaqus2matlab | 
+| GibbonCode | XX | For XX | https://www.gibboncode.org/Installation/ | 
+| nodewiseProcesses | XX | For XX | https://github.com/LawSmith408/nodewiseProcesses | 
 
 ## Getting Started
 
@@ -46,8 +44,19 @@ This project is developed using PlatformIO. To get started:
 4. Update the pin definitions at the beginning of the script to reflect your hardware setup, if necessary.
 5. Compile and flash your microcontroller with PlatformIO.
 
-## User Guide
-A comprehensive guide to using ARIADNE.
+## Variables for Simulation
+The variables that are customizable for the bio-inspired beam are the following: 
+| Variable                                    | Units  |
+|---------------------------------------------|--------|
+| Whisker Length                              | mm     |
+| Diameter at Root                            | $\mu$m |
+| Diameter at Point                           | $\mu$m |
+| Modulus at Root                             | MPa    |
+| Modulus at Point                            | MPa    |
+| Porosity at Root                            | \%     |
+| Porosity at Point                           | \%     |
+| Applied Transverse Load at Point            | N      |
+| Prescribed Transverse Displacement at Point | mm     |
 
 ### Start Up
 Upon starting the device, the LRA-drivers undergo an auto-calibration. Part of the calibration is a 1 second activation of both actuators. However, the resulting calibration values are only used in closed-loop mode; open-loop is the default, and the mode used in this implementation.  When the calibration routine is completed a blue LED indicates that the device is ready.
