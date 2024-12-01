@@ -24,7 +24,17 @@ Schulz, Andrew Kyle; Kaufmann, Lena Valentina; Smith, Lawrence; Philip, Deepti; 
 
 ## Required Dependencies for getting started. 
 
-Please refer to our hardware repository https://doi.org/10.17617/3.X62OQZ for additional material and resources.
+This workflow has the following dependencies:
+
+| Dependency | Version (if applicable)|  Purpose | Link |
+|-------------|-------------------|---------|------------|
+| MATLAB | 2023A | For simulating and visualization | https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html | 
+
+MATLAB 			https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html
+Abaqus 			https://www.3ds.com/edu/education/students/solutions/abaqus-le
+Abaqus2Matlab		https://abaqus2matlab.wixsite.com/abaqus2matlab
+GibbonCode		https://www.gibboncode.org/Installation/
+nodewiseProcesses 	https://github.com/LawSmith408/nodewiseProcesses
 
 ## Getting Started
 
