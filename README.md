@@ -12,8 +12,8 @@
   <img src="HeaderImage.png">
 </p>
 This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
-
-Citation:  
+</p>
+## Citation:  
 Schulz, Andrew Kyle; Kaufmann, Lena Valentina; Smith, Lawrence; Philip, Deepti; David, Hilda; Lazovic Zinnanti, Jelena; Brecht, Michael; Richter, Gunther; Kuchenbecker, Katherine J., 2024, "Data for: Functionally graded keratin facilitates tactile sensing in elephant whiskers", https://doi.org/10.17617/3.ROQPWZ
 
 ## Features 
