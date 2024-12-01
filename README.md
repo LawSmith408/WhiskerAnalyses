@@ -1,12 +1,10 @@
-# Functionally Graded Whisker Finite Element Simulation from paper: Functionally graded keratin facilitates tactile sensing in elephant whiskers (Submitted)
+# Functionally Graded Whisker Finite Element Simulation
 
   </h1>
   <p align="center">
+    <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a>
+    ·
     <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz*</strong></a>
-    ·
-    <a href="https://ayah-ahmad.github.io/"><strong>Ayah G. Ahmad*</strong></a>
-    ·
-	<a href="https://maegantucker.com/"><strong>Maegan Tucker*</strong></a>
     ·
 </p>
 
