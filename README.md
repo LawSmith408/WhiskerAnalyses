@@ -38,11 +38,11 @@ This workflow has the following dependencies:
 
 This project is developed using PlatformIO. To get started:
 
-1. Clone the repository.
-2. Open the project using the PlatformIO extension in Visual Studio Code or the PlatformIO IDE.
-3. Ensure that the required hardware setup is assembled according to the schematic linked in the hardware repository above.
-4. Update the pin definitions at the beginning of the script to reflect your hardware setup, if necessary.
-5. Compile and flash your microcontroller with PlatformIO.
+1. Follow the dependency links above to download the required additional programs. 
+2. Download this Repo and open in MATLAB. 
+3. Read the customization notes below 
+4. Run the specific simulations required. 
+5. Run visualizations of the simulations. 
 
 ## Variables for Simulation
 The variables that are customizable for the bio-inspired beam are the following: 
