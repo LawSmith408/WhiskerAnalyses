@@ -36,7 +36,7 @@ This workflow has the following dependencies:
 | Dependency | Version (if applicable)|  Purpose | Link |
 |-------------|-------------------|---------|------------|
 | MATLAB | 2023A | For command line prompt and visualization | https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html | 
-| Abaqus | XX | For FE simulating | https://www.3ds.com/edu/education/students/solutions/abaqus-le |
+| Abaqus | Abaqus Learning Edition | For FE simulating, the learning edition allows 1000 nodes, which is able to run all of the included code | https://www.3ds.com/edu/education/students/solutions/abaqus-le |
 | Abaqus2Matlab | XX | For connecting MATLAB and Abaqus | https://abaqus2matlab.wixsite.com/abaqus2matlab | 
 | GibbonCode | XX | For XX | https://www.gibboncode.org/Installation/ | 
 | nodewiseProcesses | XX | For XX | https://github.com/LawSmith408/nodewiseProcesses | 
