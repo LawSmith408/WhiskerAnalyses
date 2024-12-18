@@ -58,8 +58,8 @@ For all simulations, a few assumptions are made. This includes:
 2. Stiffness gradients from the root to the point are assumed to be linear
 3. The root has a boundary condition of a XX
 For specific simulations, there are different boundary conditions for the point which can be found here:
-| Simulation Name                                   | Point BC | Output  |
-|---------------------------------------------|---------------|--------|
+| Simulation Name                             | Point BC | Output |
+|---------------------------------------------|----------|--------|
 | Whisker Length                              |a| mm     |
 | Diameter at Root                            |a| $\mu$m |
 | Diameter at Point                           |a| $\mu$m |
