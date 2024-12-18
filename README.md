@@ -46,10 +46,11 @@ This workflow has the following dependencies:
 This project is developed using PlatformIO. To get started:
 
 1. Follow the dependency links above to download the required additional programs. 
-2. Download this Repo and open in MATLAB. 
-3. Read the customization notes below 
-4. Run the specific simulations required. 
-5. Run visualizations of the simulations. 
+2. Download this Repo and open in MATLAB.
+3. Download the files from the nodewiseProcess GitHub page and copy them into the 'dep' folder
+4. Read the customization notes below 
+5. Run the specific simulations required. 
+6. Run visualizations of the simulations. 
 
 ## Variables for Simulation
 The variables that are customizable for the bio-inspired beam are the following: 
