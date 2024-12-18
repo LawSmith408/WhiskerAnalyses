@@ -26,7 +26,7 @@ Simulation setup (meshing, material property assignment, boundary condition appl
 2. Static FE simulation for controlled tip displacement
 3. Static FE simulation for controlled tip force
 4. Dynamic FE simulation for natural frequency
-5. Dynamic FE simulation for frequency after beam is plucked. 
+5. Dynamic FE simulation for frequency after the beam is plucked. 
 6. Data visualizations of all of the above. 
 
 ## Required Dependencies for getting started. 
@@ -46,9 +46,9 @@ This workflow has the following dependencies:
 This project is developed using PlatformIO. To get started:
 
 1. Follow the dependency links above to download the required additional programs. 
-2. Download this Repo and open in MATLAB.
-3. Download the files from the nodewiseProcess GitHub page and copy them into the 'dep' folder
-4. Read the customization notes below 
+2. Download this Repo and open it in MATLAB.
+3. Download the files from the nodewiseProcess GitHub page including 'interpDisp.m' and 'stack3D.m' and copy them into the 'dep' folder from this repository.
+4. Read the customization notes below and the variables that can be altered
 5. Run the specific simulations required. 
 6. Run visualizations of the simulations. 
 
@@ -65,6 +65,8 @@ The variables that are customizable for the bio-inspired beam are the following:
 | Porosity at Point                           | \%     |
 | Applied Transverse Load at Point            | N      |
 | Prescribed Transverse Displacement at Point | mm     |
+
+Note that for the functional gradient simulation in this code all gradients are assumed to be linear between the modulus of porosity at the root and the modulus or porosity at the point. 
 
 ### Starting up the simulation 
 Upon inputting each of these parameters XX.
