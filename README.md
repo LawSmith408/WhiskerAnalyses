@@ -54,17 +54,17 @@ This project is developed using PlatformIO. To get started:
 
 ## Variables for Simulation
 The variables that are customizable for the bio-inspired beam are the following: 
-| Variable                                    | Units  |
-|---------------------------------------------|--------|
-| Whisker Length                              | mm     |
-| Diameter at Root                            | $\mu$m |
-| Diameter at Point                           | $\mu$m |
-| Modulus at Root                             | MPa    |
-| Modulus at Point                            | MPa    |
-| Porosity at Root                            | \%     |
-| Porosity at Point                           | \%     |
-| Applied Transverse Load at Point            | N      |
-| Prescribed Transverse Displacement at Point | mm     |
+| Variable                                    | Variable Name | Units  |
+|---------------------------------------------|---------------|--------|
+| Whisker Length                              |a| mm     |
+| Diameter at Root                            |a| $\mu$m |
+| Diameter at Point                           |a| $\mu$m |
+| Modulus at Root                             |a| MPa    |
+| Modulus at Point                            |a| MPa    |
+| Porosity at Root                            |a| \%     |
+| Porosity at Point                           |a| \%     |
+| Applied Transverse Load at Point            |a| N      |
+| Prescribed Transverse Displacement at Point |a| mm     |
 
 Note that for the functional gradient simulation in this code all gradients are assumed to be linear between the modulus of porosity at the root and the modulus or porosity at the point. 
 
