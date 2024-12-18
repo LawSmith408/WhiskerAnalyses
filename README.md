@@ -48,9 +48,23 @@ This project is developed using PlatformIO. To get started:
 1. Follow the dependency links above to download the required additional programs. 
 2. Download this Repo and open it in MATLAB.
 3. Download the files from the nodewiseProcess GitHub page including 'interpDisp.m' and 'stack3D.m' and copy them into the 'dep' folder from this repository.
-4. Read the customization notes below and the variables that can be altered
+4. Read the simulation assumptions and customization notes below and the variables that can be altered
 5. Run the specific simulations required. 
 6. Run visualizations of the simulations. 
+
+## Simulation Assumptions and Boundary Conditions
+For all simulations, a few assumptions are made. This includes:
+1. Porosity gradients from the root to the point are assumed to be linear
+2. Stiffness gradients from the root to the point are assumed to be linear
+3. The root has a boundary condition of a XX
+For specific simulations, there are different boundary conditions for the point which can be found here:
+| Simulation Name                                   | Point BC | Output  |
+|---------------------------------------------|---------------|--------|
+| Whisker Length                              |a| mm     |
+| Diameter at Root                            |a| $\mu$m |
+| Diameter at Point                           |a| $\mu$m |
+| Modulus at Root                             |a| MPa    |
+| Modulus at Point                            |a| MPa    |
 
 ## Variables for Simulation
 The variables that are customizable for the bio-inspired beam are the following: 
@@ -66,7 +80,7 @@ The variables that are customizable for the bio-inspired beam are the following:
 | Applied Transverse Load at Point            |a| N      |
 | Prescribed Transverse Displacement at Point |a| mm     |
 
-Note that for the functional gradient simulation in this code all gradients are assumed to be linear between the modulus of porosity at the root and the modulus or porosity at the point. 
+Note that for the functional gradient simulation in this code a
 
 ### Starting up the simulation 
 Upon inputting each of these parameters XX.
