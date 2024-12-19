@@ -73,6 +73,7 @@ The variables that are customizable for the bio-inspired beam are the following:
   <p align="center"> 
   <img src="ForGitHub2.png">
 </p>
+
 | Variable                                    | Variable Name | Units  |
 |---------------------------------------------|---------------|--------|
 | Whisker Length                              |a| mm     |
