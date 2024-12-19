@@ -69,6 +69,10 @@ For specific simulations, there are different boundary conditions for the point 
 
 ## Variables for Simulation
 The variables that are customizable for the bio-inspired beam are the following: 
+<p>
+  <p align="center"> 
+  <img src="ForGitHub2.png">
+</p>
 | Variable                                    | Variable Name | Units  |
 |---------------------------------------------|---------------|--------|
 | Whisker Length                              |a| mm     |
