@@ -74,7 +74,6 @@ For specific simulations, there are different boundary conditions for the point 
 | Whisker Length                              |force in the y direction at the point (x=L) | du(x)/dx     |
 | Diameter at Root                            |displacement in the y direction at the point (x=L) | stress at the root (x=0) |
 | Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
-| Modulus at Root                             |a| MPa    |
 
 
 ## Variables for Simulation
