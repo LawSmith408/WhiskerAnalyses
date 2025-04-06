@@ -22,12 +22,13 @@ Simulation setup (meshing, material property assignment, boundary condition appl
 
 ## Features 
 
-1. Construction of finite element methods for beams inspired by whisker geometry, porosity, and stiffness
-2. Static FE simulation for controlled tip displacement
-3. Static FE simulation for controlled tip force
-4. Dynamic FE simulation for natural frequency
-5. Dynamic FE simulation for frequency after the beam is plucked. 
-6. Data visualizations of all of the above. 
+1. Modal mesh convergence study for functional gradient beams
+2. Construction of finite element methods for beams inspired by whisker geometry, porosity, and stiffness
+3. Static FE simulation for controlled tip displacement
+4. Static FE simulation for controlled tip force
+5. Dynamic FE simulation for natural frequency
+6. Dynamic FE simulation for frequency after the beam is plucked. 
+7. Data visualizations of all of the above. 
 
 ## Required Dependencies for getting started. 
 
