@@ -11,9 +11,6 @@
   <strong>*</strong> designates equivalent contributions to this GitHub repository. 
 <h5 align="center">
 
-[![Website shields.io](https://img.shields.io/website?url=http%3A//tokenhmr.is.tue.mpg.de)](https://doi.org/10.17617/3.ROQPWZ.) 
-[![arXiv](https://img.shields.io/badge/arXiv-2409.09895-00ff00.svg)](https://arxiv.org/abs/2409.09895)
- 
 </h5>
 </h5>
   <p align="center"> 
