@@ -63,7 +63,7 @@ This project is developed using PlatformIO. To get started:
 For all simulations, a few assumptions are made. This includes:
 1. Porosity gradients from the root to the point are assumed to be linear
 2. Stiffness gradients from the root to the point are assumed to be linear
-3. The root has a boundary condition of a XX
+3. The root has a boundary condition of fixed for all simulations 
 For specific simulations, there are different boundary conditions for the point which can be found here:
 
 | Simulation Name                             | Point BC | Output |
@@ -92,18 +92,11 @@ The variables that are customizable for the bio-inspired beam are the following:
 | Applied Transverse Load at Point            |W.appliedMoment| N      |
 | Prescribed Transverse Displacement at Point |W.prescribedDisp| mm     |
 
-Note that for the functional gradient simulation in this code a
-
-### Starting up the simulation 
-Upon inputting each of these parameters XX.
+Note that for these are just the basic geometry, stiffness, and porosity values each MATLAB file has specific values for boundary conditions as well. 
 
 ## Support 
 
 Please note that this codebase doesn't come with direct support, but feel free to contact us.
-
-## License
-
-Please refer to the LICENSE file included with this project for information about the license.
     
 ## Contributing 
 
@@ -113,17 +106,13 @@ Please feel free to contribute improvements or report issues.
 
 If you encounter any problems or questions about specific parts of the codebase, don't hesitate to raise an issue. Always provide as much context as possible.
 
-## Citation
-
-Schulz, Andrew Kyle; Kaufmann, Lena Valentina; Smith, Lawrence; Philip, Deepti; David, Hilda; Lazovic Zinnanti, Jelena; Brecht, Michael; Richter, Gunther; Kuchenbecker, Katherine J., 2024, "Data for: Functionally graded keratin facilitates tactile sensing in elephant whiskers", https://doi.org/10.17617/3.ROQPWZ
-
 ```bibtex
-@misc{schulz_functionally_2024,
-	address = {Scientific Figures},
-	title = {Functionally graded keratin facilitates tactile sensing in elephant whiskers},
-	author = {Rokhmanova, Nataliya and Schulz, Andrew K.},
+@misc{smith_functionally_2025,
+	address = {GitHub repo},
+	title = {Functionally Graded Whisker Finite Element Simulation},
+	author = {Smith, Lawrence and Schulz, Andrew K.},
 	howpublished = {Submitted},
-	year = {2024},
+	year = {2025},
 }
 
 ```
