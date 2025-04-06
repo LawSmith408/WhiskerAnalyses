@@ -108,7 +108,7 @@ If you encounter any problems or questions about specific parts of the codebase,
 
 ```bibtex
 @misc{smith_functionally_2025,
-	address = {GitHub repo},
+	address = {whisker analyses},
 	title = {Functionally Graded Whisker Finite Element Simulation},
 	author = {Smith, Lawrence and Schulz, Andrew K.},
 	howpublished = {Submitted},
