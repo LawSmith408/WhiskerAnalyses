@@ -8,7 +8,7 @@
     ·
 </p>
 
-  <strong>*</strong> designates equivalent contributions to this GitHub repository. 
+  <strong>*</strong> designates equivalent contributions to this GitHub repository. This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
 <h5 align="center">
 
 [![Website shields.io](https://img.shields.io/website?url=http%3A//tokenhmr.is.tue.mpg.de)](https://doi.org/10.17617/3.ROQPWZ.) 
@@ -20,7 +20,7 @@
 <div style="display:flex;">
     <img src="assets/Pluck_Release_Video.gif" width="98%">
 </div>
-This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
+
 </p>
 
 ## General information
