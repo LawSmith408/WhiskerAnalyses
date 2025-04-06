@@ -86,15 +86,15 @@ The variables that are customizable for the bio-inspired beam are the following:
 
 | Variable                                    | Variable Name | Units  |
 |---------------------------------------------|---------------|--------|
-| Whisker Length                              |a| mm     |
-| Diameter at Root                            |a| $\mu$m |
-| Diameter at Point                           |a| $\mu$m |
-| Modulus at Root                             |a| MPa    |
-| Modulus at Point                            |a| MPa    |
-| Porosity at Root                            |a| \%     |
-| Porosity at Point                           |a| \%     |
-| Applied Transverse Load at Point            |a| N      |
-| Prescribed Transverse Displacement at Point |a| mm     |
+| Whisker Length                              |W.Length| mm     |
+| Diameter at Root                            |W.D_root| $\mu$m |
+| Diameter at Point                           |W.D_tip| $\mu$m |
+| Modulus at Root                             |W.E_root| MPa    |
+| Modulus at Point                            |W.E_tip| MPa    |
+| Porosity at Root                            |Porosity_Root| \%     |
+| Porosity at Point                           |Porosity_Tip | \%     |
+| Applied Transverse Load at Point            |W.appliedMoment| N      |
+| Prescribed Transverse Displacement at Point |W.prescribedDisp| mm     |
 
 Note that for the functional gradient simulation in this code a
 
