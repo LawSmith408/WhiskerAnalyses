@@ -13,11 +13,8 @@
     <img src="https://img.shields.io/badge/Data%20Repository-Edmond-005BBB.svg" alt="Edmond Repository">
   </a>
 </p>
-<p align="center">
-  
-  </a>
-</p>
 
+  
 
 <p align="center">
   <img src="assets/Pluck_Release_Video.gif" width="98%">
