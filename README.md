@@ -18,7 +18,7 @@
 
 
 <p align="center">
-  <img src="assets/Pluck_Release_Video.gif" width="98%">
+  <img src="assets/GitHubRepoPage.png" width="98%">
 </p>
 
 <p align="center">
