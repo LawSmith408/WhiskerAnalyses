@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/GitHubRepoPage.png" width="98%">
+</p>
  <h1 align="center">Functionally Graded Whisker Finite Element Simulation</h1>
 
 <p align="center">
@@ -17,9 +20,7 @@
  
 
 
-<p align="center">
-  <img src="assets/GitHubRepoPage.png" width="98%">
-</p>
+
 
 <p align="center">
   This repository contains a workflow for simulating various whisker dynamics and statics as described in the paper.
