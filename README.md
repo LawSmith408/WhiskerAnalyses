@@ -88,24 +88,25 @@ For specific simulations, there are different boundary conditions for the point 
 
 ## Variables for Simulation
 The variables that are customizable for the bio-inspired beam are the following: 
-<p>
-  <p align="center"> 
-  <img src="ForGitHub2.png">
+
+<p align="center">
+  <img src="ForGitHub2.png" width="75%">
 </p>
 
-| Variable                                    | Variable Name | Units  |
-|---------------------------------------------|---------------|--------|
-| Whisker Length                              |W.Length| mm     |
-| Diameter at Root                            |W.D_root| $\mu$m |
-| Diameter at Point                           |W.D_tip| $\mu$m |
-| Modulus at Root                             |W.E_root| MPa    |
-| Modulus at Point                            |W.E_tip| MPa    |
-| Porosity at Root                            |Porosity_Root| \%     |
-| Porosity at Point                           |Porosity_Tip | \%     |
-| Applied Transverse Load at Point            |W.appliedMoment| N      |
-| Prescribed Transverse Displacement at Point |W.prescribedDisp| mm     |
+The following table summarizes the main adjustable parameters for the whisker-inspired beam. These include geometry, material stiffness, porosity, and loading conditions. Note that individual MATLAB scripts may also define additional boundary conditions.
 
-Note that for these are just the basic geometry, stiffness, and porosity values each MATLAB file has specific values for boundary conditions as well. 
+| Variable Description                         | Variable Name         | Units   |
+|---------------------------------------------|------------------------|---------|
+| Whisker Length                               | `W.Length`             | mm      |
+| Diameter at Root                             | `W.D_root`             | μm      |
+| Diameter at Tip                              | `W.D_tip`              | μm      |
+| Modulus at Root                              | `W.E_root`             | MPa     |
+| Modulus at Tip                               | `W.E_tip`              | MPa     |
+| Porosity at Root                              | `Porosity_Root`        | %       |
+| Porosity at Tip                               | `Porosity_Tip`         | %       |
+| Applied Transverse Load at Tip               | `W.appliedMoment`      | N       |
+| Prescribed Transverse Displacement at Tip    | `W.prescribedDisp`     | mm      |
+
 
 ## Support 
 
