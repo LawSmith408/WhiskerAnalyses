@@ -6,6 +6,12 @@
 </p>
 
 <p align="center"><strong>*</strong> denotes equal contributions to this repository.</p>
+<p align="center">
+  <a href="[https://arxiv.org/abs/XXXX.XXXXX](https://arxiv.org/abs/2504.07143)">
+    <img src="https://img.shields.io/badge/arXiv-Preprint-B31B1B.svg" alt="arXiv Preprint">
+  </a>
+</p>
+
 
 <p align="center">
   <img src="assets/Pluck_Release_Video.gif" width="98%">
