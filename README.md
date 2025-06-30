@@ -67,11 +67,11 @@ This project is developed using [PlatformIO](https://platformio.org/). To get st
 
 2. Download this repo and open it in MATLAB.
 
-- [Download as ZIP](https://github.com/LawSmith408/WhiskerAnalyses/archive/refs/heads/main.zip)
-- Or clone it using Git:
-  ```bash
-  git clone https://github.com/LawSmith408/WhiskerAnalyses.git
-
+[Download as ZIP](https://github.com/LawSmith408/WhiskerAnalyses/archive/refs/heads/main.zip)
+Or clone it using Git:
+```bash
+git clone https://github.com/LawSmith408/WhiskerAnalyses.git
+```
 
 4. You can run the script using `run_modal_analysis.m`.
 5. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including `interpDisp.m` and `stack3D.m` and copy them into the `dep/` folder from this repository.
