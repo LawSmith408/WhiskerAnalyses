@@ -36,7 +36,7 @@ Running any script in this directory initiates a fully automated pipeline that:
 - Processes simulation output, and
 - Generates publication-ready figures from the results.
 
-These tools reproduce results from the associated paper or enable analysis of related problems. For academic use, the **Abaqus Learning Edition** (free, node-limited) is a suitable alternative to the full commercial license, as long as mesh sizes remain small. Full implementation details are provided in the **Supplemental Information**.
+These tools reproduce results from the associated paper or enable analysis of related problems. For academic use, the **[Abaqus Learning Edition](https://www.3ds.com/edu/education/students/solutions/abaqus-le)** (free, node-limited) is a suitable alternative to the full commercial license, as long as mesh sizes remain small. Full implementation details are provided in the main paper's **[Supplemental Methods](https://arxiv.org/abs/2504.07143)**.
 
 ---
 
