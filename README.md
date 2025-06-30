@@ -54,7 +54,7 @@ These tools reproduce results from the associated paper or enable analysis of re
 
 ## Getting Started
 
-This project is developed using PlatformIO. To get started:
+This project is developed using [PlatformIO](https://platformio.org/). To get started:
 
 1. Follow the dependency links below to download the required additional programs.
 
