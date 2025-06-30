@@ -17,21 +17,30 @@
   <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a>.
 </p>
 
-## General information
+## General Information
 
-The files in this directory demonstrate how to analyze functionally graded whiskers in various loading scenarios using the nonlinear finite element platforms Abaqus using a streamlined workflow with minimal manual intervention. Running one of the scripts in this folder will trigger a series of automated processes that allow users to reproduce the results presented in this paper, or to analyze similar problems on their own. For academic work, the free but node-limited Abaqus Learning Edition is a viable replacement for a full Abaqus license, provided that mesh sizes are kept small. A full description of these processes is included in Supplemental Information.
+This repository demonstrates a streamlined workflow for analyzing **functionally graded whiskers** under various loading scenarios using the nonlinear finite element platform **Abaqus**, with minimal manual intervention.
 
-Simulation setup (meshing, material property assignment, boundary condition application, etc.) is performed programmatically in MATLAB. Simulations are executed automatically at the command line using MATLAB functions, and upon completion results are retrieved and processed. Finally, figures are generated from the processed data and prepared for export using MATLAB.
+Running any script in this directory initiates a fully automated pipeline that:
+- Sets up simulations programmatically in **MATLAB** (including meshing, material properties, and boundary conditions),
+- Executes simulations via command-line calls to Abaqus,
+- Processes simulation output, and
+- Generates publication-ready figures from the results.
 
-## Features 
+These tools reproduce results from the associated paper or enable analysis of related problems. For academic use, the **Abaqus Learning Edition** (free, node-limited) is a suitable alternative to the full commercial license, as long as mesh sizes remain small. Full implementation details are provided in the **Supplemental Information**.
 
-1. Modal mesh convergence study for functional gradient beams
-2. Construction of finite element methods for beams inspired by whisker geometry, porosity, and stiffness
-3. Static FE simulation for controlled tip displacement
-4. Static FE simulation for controlled tip force
-5. Dynamic FE simulation for natural frequency
-6. Dynamic FE simulation for frequency after the beam is plucked. 
-7. Data visualizations of all of the above. 
+---
+
+## Features
+
+1. Modal mesh convergence studies for functionally graded beams  
+2. Construction of finite element models based on whisker geometry, porosity, and stiffness  
+3. Static finite element simulation with controlled tip displacement  
+4. Static finite element simulation with controlled tip force  
+5. Dynamic finite element simulation to determine natural frequencies  
+6. Dynamic response simulation of whiskers following a pluck  
+7. Automated data visualization for all simulation outputs  
+
 
 ## Required Dependencies for getting started. 
 
