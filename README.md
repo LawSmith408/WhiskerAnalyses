@@ -67,7 +67,7 @@ This project is developed using PlatformIO. To get started:
 
 1. Follow the dependency links above to download the required additional programs. 
 2. Download this Repo and open it in MATLAB.
-3. Download the files from the nodewiseProcess GitHub page including 'interpDisp.m' and 'stack3D.m' and copy them into the 'dep' folder from this repository.
+3. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including 'interpDisp.m' and 'stack3D.m' and copy them into the 'dep' folder from this repository.
 4. Read the simulation assumptions and customization notes below and the variables that can be altered
 5. Run the specific simulations required. 
 6. Run visualizations of the simulations. 
