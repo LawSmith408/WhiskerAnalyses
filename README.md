@@ -1,8 +1,8 @@
+
+ <h1 align="center">Functionally Graded Whisker Finite Element Simulation</h1>
 <p align="center">
   <img src="assets/GitHubRepoPage.png" width="98%">
 </p>
- <h1 align="center">Functionally Graded Whisker Finite Element Simulation</h1>
-
 <p align="center">
   <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a> ·
   <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz*</strong></a>
