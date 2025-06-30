@@ -1,23 +1,22 @@
 # Functionally Graded Whisker Finite Element Simulation
 
-  </h1>
-  <p align="center">
-    <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a>
-    ·
-    <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz*</strong></a>
-    ·
+ <h1 align="center">Whisker Simulation Workflow</h1>
+
+<p align="center">
+  <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a> ·
+  <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz*</strong></a>
 </p>
 
-  <strong>*</strong> designates equivalent contributions to this GitHub repository. 
-<h5 align="center">
+<p align="center"><strong>*</strong> denotes equal contributions to this repository.</p>
 
-</h5>
-</h5>
-  <p align="center"> 
-<div style="display:flex;">
-    <img src="assets/Pluck_Release_Video.gif" width="98%">
-</div>
-This is a workflow that will allow simulation of various whiskers including static and dynamic whisker simulations as described in the paper. For information on the raw data of indentation, SEM information, microCT, please refer to the Edmond data repository https://doi.org/10.17617/3.ROQPWZ. 
+<p align="center">
+  <img src="assets/Pluck_Release_Video.gif" width="98%">
+</p>
+
+<p align="center">
+  This repository contains a workflow for simulating various whisker dynamics and statics as described in the paper.
+  For related data (e.g., indentation, SEM, microCT), please refer to the 
+  <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a>.
 </p>
 
 ## General information
