@@ -57,7 +57,7 @@ These tools reproduce results from the associated paper or enable analysis of re
 This project is developed using PlatformIO. To get started:
 
 1. Follow the dependency links below to download the required additional programs.
-
+# Workflow Dependencies
 | Dependency         | Version               | Purpose                                                                 | Link                                                                                   |
 |--------------------|------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | MATLAB             | 2023A                  | For command line prompt and visualization                              | [MathWorks Install Guide](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html) |
