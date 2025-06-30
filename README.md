@@ -38,15 +38,16 @@ Simulation setup (meshing, material property assignment, boundary condition appl
 
 ## Required Dependencies for getting started. 
 
-This workflow has the following dependencies:
+## Workflow Dependencies
 
-| Dependency | Version (if applicable)|  Purpose | Link |
-|-------------|-------------------|---------|------------|
-| MATLAB | 2023A | For command line prompt and visualization | https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html | 
-| Abaqus | Abaqus Learning Edition | For FE simulating, the learning edition allows 1000 nodes, which is able to run all of the included code | https://www.3ds.com/edu/education/students/solutions/abaqus-le |
-| Abaqus2Matlab | 1.03 | For connecting MATLAB and Abaqus | https://abaqus2matlab.wixsite.com/abaqus2matlab | 
-| GibbonCode | 3.5.0 | For visualization and mesh generation | https://www.gibboncode.org/Installation/ | 
-| nodewiseProcesses | 1.0 | For data post processing | https://github.com/LawSmith408/nodewiseProcesses | 
+| Dependency         | Version               | Purpose                                                                 | Link                                                                                   |
+|--------------------|------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| MATLAB             | 2023A                  | For command line prompt and visualization                              | [MathWorks Install Guide](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html) |
+| Abaqus             | Learning Edition       | For FE simulation; learning edition supports up to 1000 nodes          | [Abaqus Student Edition](https://www.3ds.com/edu/education/students/solutions/abaqus-le) |
+| Abaqus2Matlab      | 1.03                   | For connecting MATLAB and Abaqus                                       | [Abaqus2Matlab](https://abaqus2matlab.wixsite.com/abaqus2matlab)                      |
+| GibbonCode         | 3.5.0                  | For visualization and mesh generation                                  | [GIBBON Installation](https://www.gibboncode.org/Installation/)                       |
+| nodewiseProcesses  | 1.0                    | For data post-processing                                               | [nodewiseProcesses GitHub](https://github.com/LawSmith408/nodewiseProcesses)          |
+
 
 ## Getting Started
 
