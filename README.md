@@ -65,10 +65,7 @@ This project is developed using [PlatformIO](https://platformio.org/). To get st
    | GibbonCode         | 3.5.0                  | For visualization and mesh generation                                  | [GIBBON Installation](https://www.gibboncode.org/Installation/)                       |
    | nodewiseProcesses  | 1.0                    | For data post-processing                                               | [nodewiseProcesses GitHub](https://github.com/LawSmith408/nodewiseProcesses)          |
 
-2. Download this repo and open it in MATLAB.
-
-[Download as ZIP](https://github.com/LawSmith408/WhiskerAnalyses/archive/refs/heads/main.zip)
-Or clone it using Git:
+2. Download this ([Download as ZIP](https://github.com/LawSmith408/WhiskerAnalyses/archive/refs/heads/main.zip)) repo and open it in MATLAB. Or clone it using Git:
 ```bash
 git clone https://github.com/LawSmith408/WhiskerAnalyses.git
 ```
