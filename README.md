@@ -1,6 +1,4 @@
-# Functionally Graded Whisker Finite Element Simulation
-
- <h1 align="center">Whisker Simulation Workflow</h1>
+ <h1 align="center">Functionally Graded Whisker Finite Element Simulation</h1>
 
 <p align="center">
   <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a> ·
