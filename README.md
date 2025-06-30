@@ -88,7 +88,9 @@ The following gradients are treated as linearly distributed variables from base 
 3. **Porosity Gradient**: Porosity changes linearly from the base to the tip and may increase or decrease depending on input.
 4. **Stiffness Gradient**: Young’s modulus varies linearly along the length of the beam, with customizable direction of the gradient.
 
-5. The root has a boundary condition of fixed for all simulations 
+### Boundary Condition Assumptions
+1. **Base is fixed**: The base has a boundary condition of fixed for all simulations
+2. **Tip depends on simulation**: The tip boundary condition has differing boundary conditions that are explained in the simulation sub-heading. 
 For specific simulations, there are different boundary conditions for the point which can be found here:
 
 | Simulation Name                             | Point BC | Output |
