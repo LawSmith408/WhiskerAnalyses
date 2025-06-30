@@ -90,7 +90,7 @@ For specific simulations, there are different boundary conditions for the point 
 The variables that are customizable for the bio-inspired beam are the following: 
 
 <p align="center">
-  <img src="ForGitHub2.png" width="75%">
+  <img src="assets/ForGitHub2.png" width="75%">
 </p>
 
 The following table summarizes the main adjustable parameters for the whisker-inspired beam. These include geometry, material stiffness, porosity, and loading conditions. Note that individual MATLAB scripts may also define additional boundary conditions.
