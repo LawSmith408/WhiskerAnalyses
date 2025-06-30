@@ -14,7 +14,8 @@
   </a>
 </p>
 
-  
+  > 💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability.
+
 
 <p align="center">
   <img src="assets/Pluck_Release_Video.gif" width="98%">
