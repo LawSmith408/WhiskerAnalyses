@@ -70,8 +70,8 @@ This project is developed using [PlatformIO](https://platformio.org/). To get st
 
 4. You can run the script using `run_modal_analysis.m`.
 5. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including `interpDisp.m` and `stack3D.m` and copy them into the `dep/` folder from this repository.
-6. Read the simulation assumptions and customization notes below and the variables that can be altered
-7. Run the specific simulations required. 
+6. Understand the assumptions of this simulation, boundary conditions, and variables that can be shifted. The primary variables that can be shifted in these simulations are <span style="color:green"><strong>geometry</strong></span>, <span style="color:blue"><strong>porosity</strong></span>, and <span style="color:red"><strong>stiffness</strong></span>.
+7. Run the specific simulations required.
 8. Run visualizations of the simulations.
 
 ## Simulation Assumptions and Boundary Conditions
