@@ -76,10 +76,19 @@ This project is developed using [PlatformIO](https://platformio.org/). To get st
 8. Run visualizations of the simulations.
 
 ## Simulation Assumptions and Boundary Conditions
-For all simulations, a few assumptions are made. This includes:
-1. Porosity gradients from the root to the point are assumed to be linear
-2. Stiffness gradients from the root to the point are assumed to be linear
-3. The root has a boundary condition of fixed for all simulations 
+
+For all simulations, a few assumptions are made.
+
+### Variable Assumptions
+
+The following gradients are treated as linearly distributed variables from base (root) to tip:
+
+1. **Symmetric Geometry**: The beam is assumed to be transversely symmetric, meaning the cross-section has the same moment of inertia about both principal axes ($I_x = I_y$).
+2. **Geometry Gradient**: The diameter tapers linearly from the base to the tip.
+3. **Porosity Gradient**: Porosity changes linearly from the base to the tip and may increase or decrease depending on input.
+4. **Stiffness Gradient**: Young’s modulus varies linearly along the length of the beam, with customizable direction of the gradient.
+
+5. The root has a boundary condition of fixed for all simulations 
 For specific simulations, there are different boundary conditions for the point which can be found here:
 
 | Simulation Name                             | Point BC | Output |
