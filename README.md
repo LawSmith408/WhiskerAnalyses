@@ -41,9 +41,6 @@ These tools reproduce results from the associated paper or enable analysis of re
 6. Dynamic response simulation of whiskers following a pluck  
 7. Automated data visualization for all simulation outputs  
 
-
-## Required Dependencies for getting started. 
-
 ## Workflow Dependencies
 
 | Dependency         | Version               | Purpose                                                                 | Link                                                                                   |
