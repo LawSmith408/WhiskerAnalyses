@@ -14,7 +14,7 @@
   </a>
 </p>
 
-  > 💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability.
+ 
 
 
 <p align="center">
@@ -123,6 +123,8 @@ Please feel free to contribute improvements or report issues.
 
 If you encounter any problems or questions about specific parts of the codebase, don't hesitate to raise an issue. Always provide as much context as possible.
 
+ > 💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability.
+> 
 ```bibtex
 @misc{smith_functionally_2025,
 	address = {whisker analyses},
