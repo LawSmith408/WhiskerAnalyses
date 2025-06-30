@@ -1,5 +1,5 @@
 
- <h1 align="center">Functionally Graded Whisker Finite Element Simulation</h1>
+ <h1 align="center">WhiskerAnalyses: Functionally Graded Whisker Finite Element Simulations</h1>
 
 <p align="center">
   <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a> ·
