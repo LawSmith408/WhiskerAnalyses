@@ -23,14 +23,11 @@
 
 
 <p align="center">
-  This repository contains a workflow for simulating various whisker dynamics and statics as described in the paper.
-  For related data (e.g., indentation, SEM, microCT), please refer to the 
-  <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a>.
+  
 </p>
 
 ## General Information
-
-This repository demonstrates a streamlined workflow for analyzing **functionally graded whiskers** under various loading scenarios using the nonlinear finite element platform **Abaqus**, with minimal manual intervention.
+This repository contains a workflow for simulating various whisker dynamics and statics as described in the [paper](https://arxiv.org/abs/2504.07143). For related data (e.g., indentation, SEM, microCT), please refer to the <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a>. This repository demonstrates a streamlined workflow for analyzing **functionally graded whiskers** under various loading scenarios using the nonlinear finite element platform **Abaqus**, with minimal manual intervention.
 
 Running any script in this directory initiates a fully automated pipeline that:
 - Sets up simulations programmatically in **MATLAB** (including meshing, material properties, and boundary conditions),
