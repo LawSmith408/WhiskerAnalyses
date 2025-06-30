@@ -97,15 +97,15 @@ The following table summarizes the main adjustable parameters for the whisker-in
 
 | Variable Description                         | Variable Name         | Units   |
 |---------------------------------------------|------------------------|---------|
-| Whisker Length                               | `W.Length`             | mm      |
-| Diameter at Root                             | `W.D_root`             | μm      |
-| Diameter at Tip                              | `W.D_tip`              | μm      |
-| Modulus at Root                              | `W.E_root`             | MPa     |
-| Modulus at Tip                               | `W.E_tip`              | MPa     |
-| Porosity at Root                              | `Porosity_Root`        | %       |
-| Porosity at Tip                               | `Porosity_Tip`         | %       |
-| Applied Transverse Load at Tip               | `W.appliedMoment`      | N       |
-| Prescribed Transverse Displacement at Tip    | `W.prescribedDisp`     | mm      |
+| Whisker length                               | `W.Length`             | mm      |
+| Diameter at base                             | `W.D_base`             | μm      |
+| Diameter at tip                              | `W.D_tip`              | μm      |
+| Modulus at base                              | `W.E_base`             | MPa     |
+| Modulus at tip                               | `W.E_tip`              | MPa     |
+| Porosity at base                            | `Porosity_base`        | %       |
+| Porosity at tip                               | `Porosity_Tip`         | %       |
+| Applied Transverse load at tip               | `W.appliedMoment`      | N       |
+| Prescribed transverse displacement at tip    | `W.prescribedDisp`     | mm      |
 
 
 ## Support 
