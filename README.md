@@ -9,11 +9,12 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2504.07143">
     <img src="https://img.shields.io/badge/arXiv-Preprint-B31B1B.svg" alt="arXiv Preprint">
+	  <a href="https://doi.org/10.17617/3.ROQPWZ">
+    <img src="https://img.shields.io/badge/Data%20Repository-Edmond-005BBB.svg" alt="Edmond Repository">
   </a>
 </p>
 <p align="center">
-  <a href="https://doi.org/10.17617/3.ROQPWZ">
-    <img src="https://img.shields.io/badge/Data%20Repository-Edmond-005BBB.svg" alt="Edmond Repository">
+  
   </a>
 </p>
 
