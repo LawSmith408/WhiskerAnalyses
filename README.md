@@ -57,16 +57,17 @@ These tools reproduce results from the associated paper or enable analysis of re
 This project is developed using PlatformIO. To get started:
 
 1. Follow the dependency links below to download the required additional programs.
-# Workflow Dependencies
-| Dependency         | Version               | Purpose                                                                 | Link                                                                                   |
-|--------------------|------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| MATLAB             | 2023A                  | For command line prompt and visualization                              | [MathWorks Install Guide](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html) |
-| Abaqus             | Learning Edition       | For FE simulation; learning edition supports up to 1000 nodes          | [Abaqus Student Edition](https://www.3ds.com/edu/education/students/solutions/abaqus-le) |
-| Abaqus2Matlab      | 1.03                   | For connecting MATLAB and Abaqus                                       | [Abaqus2Matlab](https://abaqus2matlab.wixsite.com/abaqus2matlab)                      |
-| GibbonCode         | 3.5.0                  | For visualization and mesh generation                                  | [GIBBON Installation](https://www.gibboncode.org/Installation/)                       |
-| nodewiseProcesses  | 1.0                    | For data post-processing                                               | [nodewiseProcesses GitHub](https://github.com/LawSmith408/nodewiseProcesses)          |
 
-3. Download this Repo and open it in MATLAB.
+   | Dependency         | Version               | Purpose                                                                 | Link                                                                                   |
+   |--------------------|------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+   | MATLAB             | 2023A                  | For command line prompt and visualization                              | [MathWorks Install Guide](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html) |
+   | Abaqus             | Learning Edition       | For FE simulation; learning edition supports up to 1000 nodes          | [Abaqus Student Edition](https://www.3ds.com/edu/education/students/solutions/abaqus-le) |
+   | Abaqus2Matlab      | 1.03                   | For connecting MATLAB and Abaqus                                       | [Abaqus2Matlab](https://abaqus2matlab.wixsite.com/abaqus2matlab)                      |
+   | GibbonCode         | 3.5.0                  | For visualization and mesh generation                                  | [GIBBON Installation](https://www.gibboncode.org/Installation/)                       |
+   | nodewiseProcesses  | 1.0                    | For data post-processing                                               | [nodewiseProcesses GitHub](https://github.com/LawSmith408/nodewiseProcesses)          |
+
+2. Download this repo and open it in MATLAB.
+
 4. You can run the script using `run_modal_analysis.m`.
 5. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including `interpDisp.m` and `stack3D.m` and copy them into the `dep/` folder from this repository.
 6. Read the simulation assumptions and customization notes below and the variables that can be altered
