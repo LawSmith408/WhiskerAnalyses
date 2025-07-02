@@ -79,7 +79,7 @@ run_modal_analysis.m
 7. Run the specific simulations required.
 8. Run visualizations of the simulations.
 
-## Simulation Assumptions and Boundary Conditions
+## Simulation Assumptions, Boundary Conditions, Independent Variables
 
 For all simulations, a few assumptions are made.
 
@@ -104,13 +104,7 @@ For specific simulations, there are different boundary conditions for the point 
 | Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
 
 
-## Variables for Simulation
-The variables that are customizable for the bio-inspired beam are the following: 
-
-<p align="center">
-  <img src="assets/ForGitHub2.png" width="75%">
-</p>
-
+### Independent Variables in the simulation
 The following table summarizes the main adjustable parameters for the whisker-inspired beam. These include geometry, material stiffness, porosity, and loading conditions. Note that individual MATLAB scripts may also define additional boundary conditions.
 
 | Variable Description                         | Variable Name         | Units   |
@@ -124,6 +118,30 @@ The following table summarizes the main adjustable parameters for the whisker-in
 | Porosity at tip                               | `Porosity_Tip`         | %       |
 | Applied Transverse load at tip               | `W.appliedMoment`      | N       |
 | Prescribed transverse displacement at tip    | `W.prescribedDisp`     | mm      |
+
+## First steps in WhiskerAnalyses
+
+Overall this GitHub allows a step-by-step tutorial for running simulations on running several non-linear simulations, however with any FEA simulations its critical to first perform a non-linear parametric study and mesh convergence to determine FEA settings and mesh-size.
+
+### Finite-element validation
+
+For running validation for your simulation, there is a quick study to understand if linear or non-linear methods are necessary: 
+
+1. **Displacement test**: Start with a simple beam tip displacement test to determine if the simulation's boundary conditions are satisfied and it behaves as a eulerian beam. 
+
+### FEA mesh-convergence study
+
+For running a mesh convergence for your simulation, we have included a quick script that allows you to run a mesh convergence study, plot the data, and analyze the results. 
+
+1. **Mesh-convergence script**: For the mesh script open the MATLAB command window and run the following: 
+```bash
+run_modal_analysis.m
+```
+
+## FEA simulations included in WhiskerAnalyses
+
+Overall in the following sections there are simple (quasi-static), semi-complex (natural vibration modes), and complex (dynamic plucking sims that are possible. Overall the following tasks, figures, and output comparisons are possible: 
+
 
 
 ## Support 
