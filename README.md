@@ -127,7 +127,7 @@ Overall this GitHub allows a step-by-step tutorial for running simulations on ru
 
 For running validation for your simulation, there is a quick study to understand if linear or non-linear methods are necessary: 
 
-1. **Displacement test**: Start with a simple beam tip displacement test to determine if the simulation's boundary conditions are satisfied and it behaves as a eulerian beam. 
+1. **Finite-element validation**: Start with a simple beam tip displacement test to determine if the simulation's boundary conditions are satisfied and it behaves as a eulerian beam. 
 
 ### FEA mesh-convergence study
 
@@ -141,7 +141,8 @@ run_modal_analysis.m
 ## FEA simulations included in WhiskerAnalyses
 
 Overall in the following sections there are simple (quasi-static), semi-complex (natural vibration modes), and complex (dynamic plucking sims that are possible. Overall the following tasks, figures, and output comparisons are possible: 
-
+1. Quasi-static non-linear finite element model with a controlled point displacement value
+2. Quasi-static non-linear 
 
 
 ## Support 
