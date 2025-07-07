@@ -83,7 +83,7 @@ run_modal_analysis.m
 
 For all simulations, a few assumptions are made.
 
-</details>
+<details>
 ### Variable Assumptions
 
 The following gradients are treated as linearly distributed variables from base (root) to tip:
