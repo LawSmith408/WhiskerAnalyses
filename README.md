@@ -118,7 +118,7 @@ For specific simulations, there are different boundary conditions for the point 
 
 | Simulation File Name | Simulation Description | Tip Boundary Condition | Model Outputs |                         
 |---------------------------------------------|----------|----------|--------|
-|`W.Length`| Applied transverse load at tip viewing tip displacement                             | $f_y|_{x=L}$ | $\overrightarrow{AB}$     |
+|`W.Length`| Applied transverse load at tip viewing tip displacement                             | $$f_y|_{x=L}$$ | $$\overrightarrow{AB}$$     |
 | Diameter at Root                            |displacement in the y direction at the point (x=L) | stress at the root (x=0) |
 | Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
 
