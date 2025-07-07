@@ -93,7 +93,11 @@ The following gradients are treated as linearly distributed variables from base 
 4. **Stiffness Gradient**: Young’s modulus varies linearly along the length of the beam, with customizable direction of the gradient.
 
 ### Independent Variables in the simulation
-The following table summarizes the main adjustable parameters for the whisker-inspired beam. These include geometry, material stiffness, porosity, and loading conditions. Note that individual MATLAB scripts may also define additional boundary conditions.
+The following table summarizes the main adjustable parameters for the whisker-inspired beam. These include geometry, material stiffness, porosity, and loading conditions. Note that individual MATLAB scripts may also define additional boundary conditions. Note you can use either the visual image or the table to see the labels of the whisker simulation. 
+
+ <p align="center">
+  <img src="assets/GitHubLabels.png" width="98%">
+</p>
 
 | Variable Description                         | Variable Name         | Units   |
 |---------------------------------------------|------------------------|---------|
