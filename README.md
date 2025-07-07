@@ -209,9 +209,10 @@ Each of these simulations is included in further details in the subsections belo
  test 
  
 </details>
+
 ## Support 
 
-Please note that this codebase doesn't come with direct support, but feel free to contact us.
+Please note that this codebase doesn't come with direct support, but feel free to contact us. Our names and contact information are listed at the bottom of this page. 
     
 ## Contributing 
 
