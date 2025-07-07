@@ -83,7 +83,7 @@ run_modal_analysis.m
 
 For all simulations, a few assumptions are made.
 
-<details>
+<assumptions>
 ### Variable Assumptions
 
 The following gradients are treated as linearly distributed variables from base (root) to tip:
@@ -124,7 +124,7 @@ For specific simulations, there are different boundary conditions for the point 
 |`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base                            | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$   |
 |`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base for free vibration                       | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$     |
 
-</details>
+</assumptions>
 
 
 ## First steps in WhiskerAnalyses
