@@ -162,7 +162,7 @@ Overall in the following sections there are simple (quasi-static), semi-complex 
 
 Each of these simulations is included in further details in the subsections below
 
-### Normalzied tip displacement
+### Normalized tip displacement
 
 <details>
 
