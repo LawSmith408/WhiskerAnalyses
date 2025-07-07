@@ -118,9 +118,10 @@ For specific simulations, there are different boundary conditions for the point 
 
 | Simulation File Name | Simulation Description | Tip Boundary Condition | Model Outputs |                         
 |---------------------------------------------|----------|----------|--------|
-|`W.Length`| Applied transverse load at tip viewing tip displacement                             | $$f_y\vert_{x=L}$$ | $$\overrightarrow{AB}$$     |
-| Diameter at Root                            |displacement in the y direction at the point (x=L) | stress at the root (x=0) |
-| Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
+|`W.Length`| Quasi-static applied transverse load at tip viewing tip displacement                             | $$f_y\vert_{x=L}$$ | $$\overrightarrow{u(x)}$$     |
+|`W.Length`| Quasi-static prescribed transverse displacement at tip                            | $$u_y\vert_{x=L}$$ | $$\sigma_{11}\vert_{x=0}$$     |
+|`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base                            | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$   |
+|`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base for free vibration                       | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$     |
 
 
 
