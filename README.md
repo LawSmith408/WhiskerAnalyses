@@ -116,9 +116,9 @@ The following table summarizes the main adjustable parameters for the whisker-in
 2. **Tip depends on simulation**: The tip boundary condition has differing boundary conditions that are explained in the simulation sub-heading. 
 For specific simulations, there are different boundary conditions for the point which can be found here:
 
-| Simulation Name                             | Point BC | Output |
-|---------------------------------------------|----------|--------|
-| Whisker Length                              |force in the y direction at the point (x=L) | du(x)/dx     |
+| Simulation File Name | Simulation Description | Tip Boundary Condition | Model Outputs |                         
+|---------------------------------------------|----------|----------|--------|
+|`W.Length`| Applied transverse load at tip viewing tip displacement                             | $f_y|_{x=L}$ | $\overrightarrow{AB}$     |
 | Diameter at Root                            |displacement in the y direction at the point (x=L) | stress at the root (x=0) |
 | Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
 
