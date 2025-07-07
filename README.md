@@ -49,8 +49,6 @@ These tools reproduce results from the associated paper or enable analysis of re
 6. Dynamic response simulation of whiskers following a pluck  
 7. Automated data visualization for all simulation outputs  
 
-
-
 ## Getting Started
 
 This project is developed using [PlatformIO](https://platformio.org/). To get started:
@@ -83,7 +81,7 @@ run_modal_analysis.m
 
 For all simulations, a few assumptions are made.
 
-<assumptions>
+<details>
 ### Variable Assumptions
 
 The following gradients are treated as linearly distributed variables from base (root) to tip:
@@ -124,12 +122,15 @@ For specific simulations, there are different boundary conditions for the point 
 |`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base                            | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$   |
 |`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base for free vibration                       | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$     |
 
-</assumptions>
+</details>
 
 
-## First steps in WhiskerAnalyses
+## FEA Validation and Mesh-convergence
 
 Overall this GitHub allows a step-by-step tutorial for running simulations on running several non-linear simulations, however with any FEA simulations its critical to first perform a non-linear parametric study and mesh convergence to determine FEA settings and mesh-size.
+
+
+<details>
 
 ### Finite-element validation
 
@@ -145,6 +146,9 @@ For running a mesh convergence for your simulation, we have included a quick scr
 ```bash
 run_modal_analysis.m
 ```
+
+
+</details>
 
 ## FEA simulations included in WhiskerAnalyses
 
