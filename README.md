@@ -92,18 +92,6 @@ The following gradients are treated as linearly distributed variables from base 
 3. **Porosity Gradient**: Porosity changes linearly from the base to the tip and may increase or decrease depending on input.
 4. **Stiffness Gradient**: Young’s modulus varies linearly along the length of the beam, with customizable direction of the gradient.
 
-### Boundary Condition Assumptions
-1. **Base is fixed**: The base has a boundary condition of fixed for all simulations
-2. **Tip depends on simulation**: The tip boundary condition has differing boundary conditions that are explained in the simulation sub-heading. 
-For specific simulations, there are different boundary conditions for the point which can be found here:
-
-| Simulation Name                             | Point BC | Output |
-|---------------------------------------------|----------|--------|
-| Whisker Length                              |force in the y direction at the point (x=L) | du(x)/dx     |
-| Diameter at Root                            |displacement in the y direction at the point (x=L) | stress at the root (x=0) |
-| Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
-
-
 ### Independent Variables in the simulation
 The following table summarizes the main adjustable parameters for the whisker-inspired beam. These include geometry, material stiffness, porosity, and loading conditions. Note that individual MATLAB scripts may also define additional boundary conditions.
 
@@ -118,6 +106,20 @@ The following table summarizes the main adjustable parameters for the whisker-in
 | Porosity at tip                               | `Porosity_Tip`         | %       |
 | Applied Transverse load at tip               | `W.appliedMoment`      | N       |
 | Prescribed transverse displacement at tip    | `W.prescribedDisp`     | mm      |
+
+### Boundary Condition Assumptions
+1. **Base is fixed**: The base has a boundary condition of fixed for all simulations
+2. **Tip depends on simulation**: The tip boundary condition has differing boundary conditions that are explained in the simulation sub-heading. 
+For specific simulations, there are different boundary conditions for the point which can be found here:
+
+| Simulation Name                             | Point BC | Output |
+|---------------------------------------------|----------|--------|
+| Whisker Length                              |force in the y direction at the point (x=L) | du(x)/dx     |
+| Diameter at Root                            |displacement in the y direction at the point (x=L) | stress at the root (x=0) |
+| Diameter at Point                           |displacement in the y direction along the shaft (x=a) | moment and velocity at the root |
+
+
+
 
 ## First steps in WhiskerAnalyses
 
