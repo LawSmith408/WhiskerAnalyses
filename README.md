@@ -153,10 +153,62 @@ run_modal_analysis.m
 ## FEA simulations included in WhiskerAnalyses
 
 Overall in the following sections there are simple (quasi-static), semi-complex (natural vibration modes), and complex (dynamic plucking sims that are possible. Overall the following tasks, figures, and output comparisons are possible: 
-1. Quasi-static non-linear finite element model with a controlled point displacement value
-2. Quasi-static non-linear 
+1. **Normalized tip displacement:** Quasi-static non-linear finite element model with a controlled tip displacement value allowing comparison between whiskers. 
+2. **Normalized tip force:** Quasi-static non-linear finite element model with a controlled tip force allowing comparision between whiskers
+3. **Density gradient vibration:** Dynamic vibration analysis displaying density gradient eigenfrequencies and eigenmodes.
+4. **Stiffness gradient vibration:**  Dynamic vibration analysis displaying stiffness gradient eigenfrequencies and eigenmodes.
+5. **Frequency Analysis:** Allow analysis and comparison of frequencies between different whisker conditions. 
+6. **Pluck and release:** Allows controlled plucking along the whisker's length to compare frequency content. 
 
+Each of these simulations is included in further details in the subsections below
 
+### Normalzied tip displacement
+
+<details>
+
+ test 
+ 
+</details>
+
+### Normalized tip force
+
+<details>
+
+ test 
+ 
+</details>
+
+### Density gradient vibration
+
+<details>
+
+ test 
+ 
+</details>
+
+### Stiffness gradient vibration
+
+<details>
+
+ test 
+ 
+</details>
+
+### Frequency analysis 
+
+<details>
+
+ test 
+ 
+</details>
+
+### Pluck and release
+
+<details>
+
+ test 
+ 
+</details>
 ## Support 
 
 Please note that this codebase doesn't come with direct support, but feel free to contact us.
