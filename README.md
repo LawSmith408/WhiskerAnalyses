@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Data%20Repository-Edmond-005BBB.svg" alt="Edmond Repository">
   </a>
 </p>
-💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability. This repo is designed to be vieewed in Light mode. 
+ 
  <p align="center">
   <img src="assets/GitHubHeader.gif" width="98%">
 </p>
@@ -27,7 +27,9 @@
 </p>
 
 ## General Information
-This repository contains a workflow for simulating various whisker dynamics and statics as described in the [paper](https://arxiv.org/abs/2504.07143). For related data (e.g., indentation, SEM, microCT), please refer to the <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a>. This repository demonstrates a streamlined workflow for analyzing **functionally graded whiskers** under various loading scenarios using the nonlinear finite element platform **Abaqus**, with minimal manual intervention.
+This repository contains a workflow for simulating various whisker dynamics and statics as described in the [paper](https://arxiv.org/abs/2504.07143). For related data (e.g., indentation, SEM, microCT), please refer to the <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a>. This repository demonstrates a streamlined workflow for analyzing **functionally graded whiskers** under various loading scenarios using the nonlinear finite element platform **Abaqus**, with minimal manual intervention. 
+
+💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability. This repo is designed to be vieewed in Light mode.
 
 Running any script in this directory initiates a fully automated pipeline that:
 - Sets up simulations programmatically in **MATLAB** (including meshing, material properties, and boundary conditions),
