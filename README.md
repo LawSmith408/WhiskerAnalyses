@@ -153,12 +153,12 @@ run_modal_analysis.m
 ## FEA simulations included in WhiskerAnalyses
 
 Overall in the following sections there are simple (quasi-static), semi-complex (natural vibration modes), and complex (dynamic plucking sims that are possible. Overall the following tasks, figures, and output comparisons are possible: 
-1. **Normalized tip displacement:** Quasi-static non-linear finite element model with a controlled tip displacement value allowing comparison between whiskers. 
-2. **Normalized tip force:** Quasi-static non-linear finite element model with a controlled tip force allowing comparision between whiskers
-3. **Density gradient vibration:** Dynamic vibration analysis displaying density gradient eigenfrequencies and eigenmodes.
-4. **Stiffness gradient vibration:**  Dynamic vibration analysis displaying stiffness gradient eigenfrequencies and eigenmodes.
-5. **Frequency Analysis:** Allow analysis and comparison of frequencies between different whisker conditions. 
-6. **Pluck and release:** Allows controlled plucking along the whisker's length to compare frequency content. 
+1. **[Normalized tip displacement:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#normalized-tip-displacement)** Quasi-static non-linear finite element model with a controlled tip displacement value allowing comparison between whiskers. 
+2. **[Normalized tip force:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#normalized-tip-force)** Quasi-static non-linear finite element model with a controlled tip force allowing comparision between whiskers
+3. **[Density gradient vibration:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#density-gradient-vibration)** Dynamic vibration analysis displaying density gradient eigenfrequencies and eigenmodes.
+4. **[Stiffness gradient vibration:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#stiffness-gradient-vibration)**  Dynamic vibration analysis displaying stiffness gradient eigenfrequencies and eigenmodes.
+5. **[Frequency Analysis:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#frequency-analysis)** Allow analysis and comparison of frequencies between different whisker conditions. 
+6. **[Pluck and release:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#pluck-and-release)** Allows controlled plucking along the whisker's length to compare frequency content. 
 
 Each of these simulations is included in further details in the subsections below
 
