@@ -16,7 +16,7 @@
 </p>
 
  <p align="center">
-  <img src="assets/GitHubRepoPage.png" width="98%">
+  <img src="assets/GitHubHeader.gif" width="98%">
 </p>
 
 
