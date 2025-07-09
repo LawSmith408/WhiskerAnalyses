@@ -16,7 +16,7 @@
 </p>
  
  <p align="center">
-  <img src="assets/GitHubHeader.gif" width="100%">
+  <img src="assets/GitHubHeader2.gif" width="100%">
 </p>
 
 
