@@ -54,10 +54,10 @@ clor = autumn(4)*0.95;
 for i = 1:length(E_ratio)
     if E_ratio(i)==1
 plot(simOut{i}.F(1:5),styleVect{i},'markersize',5,'color',clor(i,:),'displayname',...
-    ['E_{point}/E_{root} = ' sprintf('%1.0e',E_ratio(i))],'linewidth',2); hold on
+    ['E_{tip}/E_{root} = ' sprintf('%1.0e',E_ratio(i))],'linewidth',2); hold on
     else
 plot(simOut{i}.F(1:5),styleVect{i},'markersize',5,'color',clor(i,:),'displayname',...
-    ['E_{point}/E_{root} = ' sprintf('%1.0e',E_ratio(i))],'linewidth',2); hold on
+    ['E_{tip}/E_{root} = ' sprintf('%1.0e',E_ratio(i))],'linewidth',2); hold on
     end
 end
 xlabel('Eigenfrequency number')

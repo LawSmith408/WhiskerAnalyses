@@ -1,4 +1,4 @@
-function [simData] = simulateWhisker_PluckRelease(W)
+function [simData] = simulateWhisker_PluckReleaseInterp(W)
 
 % W.Length = 25;
 % W.Diameter = 0.075;
