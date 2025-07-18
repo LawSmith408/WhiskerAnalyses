@@ -238,7 +238,11 @@ If you encounter any problems or questions about specific parts of the codebase,
 
 ```
 ## License
-See the LICENSE file for more information. 
+This project is licensed under the GNU GPL version 3 - see the [LICENSE](https://github.com/LawSmith408/WhiskerAnalyses/blob/main/LICENSEd) file for details.
+
+## Copyright
+
+© 2025, Max Planck Society 
 
 ## Acknowledgements
 The authors thank the International Max Planck Research School for Intelligent Systems, [IMPRS-IS](https://imprs.is.mpg.de/) for supporting LTS and AKS. We thank J. Burns and [J.-C. Passy](https://github.com/jcpassy) for his assistance in preparing the content for this GitHub. The authors thank N. Rokhmanova for her [ARIADNE repo](https://github.com/nrokh/ARIADNE) inspiring this ReadMe. Thanks to [Katherine J. Kuchenbecker](https://is.mpg.de/~kjk) for support and feedback.
