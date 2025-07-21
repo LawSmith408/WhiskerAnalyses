@@ -163,55 +163,7 @@ Overall in the following sections there are simple (quasi-static), semi-complex 
 5. **[Frequency Analysis:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#frequency-analysis)** Allow analysis and comparison of frequencies between different whisker conditions. 
 6. **[Pluck and release:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#pluck-and-release)** Allows controlled plucking along the whisker's length to compare frequency content. 
 
-Each of these simulations is included in further details in the subsections below
 
-### Normalized tip displacement
-
-<details>
-
- test 
- 
-</details>
-
-### Normalized tip force
-
-<details>
-
- test 
- 
-</details>
-
-### Density gradient vibration
-
-<details>
-
- test 
- 
-</details>
-
-### Stiffness gradient vibration
-
-<details>
-
- test 
- 
-</details>
-
-### Frequency analysis 
-
-<details>
-
- test 
- 
-</details>
-
-### Pluck and release
-
-<details>
-
- test 
- 
-</details>
 
 ## Support 
 
