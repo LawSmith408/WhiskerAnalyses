@@ -4,6 +4,7 @@
 % Lawrence Smith | lsmith@is.mpg.de
 
 clear; clc; close all
+addpath dep
 
 Labels  = {sprintf('Adult\nElephant'),'Rat',sprintf('Grey\nSeal'),'Uniform-E'};
 Labels2  = {'Adult Elephant','Rat','Grey Seal','Baseline'};

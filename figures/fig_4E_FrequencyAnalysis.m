@@ -4,7 +4,6 @@
 % Lawrence Smith | lsmith@is.mpg.de
 
 clear; clc; close all
-
 addpath dep
 
 %Whisker Dimensions and Material Properties

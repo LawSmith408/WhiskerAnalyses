@@ -5,6 +5,7 @@
 % Lawrence Smith | lsmith@is.mpg.de
 
 clear; clc; close all
+addpath ../dep
 
 %Analysis Name
 W.fName = 'test01';             %[] analysis name

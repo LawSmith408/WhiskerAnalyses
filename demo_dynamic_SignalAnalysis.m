@@ -2,6 +2,7 @@
 % Lawrence Smith | lsmith@is.mpg.de
 
 clear; clc; close all
+addpath dep
 
 % Labels  = {'Uniform-E', sprintf('Adult\nElephant'), };
 Labels2  = {'Uniform E','Adult Elephant','Inverted Elephant'};
