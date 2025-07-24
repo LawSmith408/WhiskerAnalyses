@@ -72,7 +72,7 @@ git clone https://github.com/LawSmith408/WhiskerAnalyses.git
 
 4. You can run the script in the MATLAB command line using:
 ```bash
-run_modal_analysis.m
+MeshConvergenceStudy_Modal.m
 ```
 5. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including `interpDisp.m` and `stack3D.m` and copy them into the `dep/` folder from this repository.
 6. Understand the assumptions of this simulation, boundary conditions, and variables that can be shifted ([described in the next section](https://github.com/LawSmith408/WhiskerAnalyses/blob/main/README.md#simulation-assumptions-and-boundary-conditions)). The primary variables that can be shifted in these simulations are: $${\color{green}\text{geometry}}$$, $${\color{blue}\text{porosity}}$$, and $${\color{red}\text{stiffness}}$$.
@@ -147,7 +147,7 @@ For running a mesh convergence for your simulation, we have included a quick scr
 
 1. **Mesh-convergence script**: For the mesh script open the MATLAB command window and run the following: 
 ```bash
-run_modal_analysis.m
+MeshConvergenceStudy_Modal.m
 ```
 
 
