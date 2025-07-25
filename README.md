@@ -64,6 +64,7 @@ This project is developed using [PlatformIO](https://platformio.org/). To get st
    | Abaqus2Matlab      | 1.03                   | For connecting MATLAB and Abaqus                                       | [Abaqus2Matlab](https://abaqus2matlab.wixsite.com/abaqus2matlab)                      |
    | GibbonCode         | 3.5.0                  | For visualization and mesh generation                                  | [GIBBON Installation](https://www.gibboncode.org/Installation/)                       |
    | nodewiseProcesses  | 1.0                    | For data post-processing                                               | [nodewiseProcesses GitHub](https://github.com/LawSmith408/nodewiseProcesses)          |
+   | ColorBrewer        | 3.2.8                  | For attractive and distinctive colormaps                               | [ColorBrewer](https://github.com/DrosteEffect/BrewerMap)          |
 
 2. Download this ([Download as ZIP](https://github.com/LawSmith408/WhiskerAnalyses/archive/refs/heads/main.zip)) repo and open it in MATLAB. Or clone it using Git:
 ```bash
