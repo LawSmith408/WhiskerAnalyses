@@ -75,10 +75,10 @@ git clone https://github.com/LawSmith408/WhiskerAnalyses.git
 ```bash
 MeshConvergenceStudy_Modal.m
 ```
-5. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including `interpDisp.m` and `stack3D.m` and copy them into the `dep/` folder from this repository.
-6. Understand the assumptions of this simulation, boundary conditions, and variables that can be shifted ([described in the next section](https://github.com/LawSmith408/WhiskerAnalyses/blob/main/README.md#simulation-assumptions-and-boundary-conditions)). The primary variables that can be shifted in these simulations are: $${\color{green}\text{geometry}}$$, $${\color{blue}\text{porosity}}$$, and $${\color{red}\text{stiffness}}$$.
-7. Run the specific simulations required.
-8. Run visualizations of the simulations.
+5. Download the files from the [nodewiseProcess GitHub page](https://github.com/LawSmith408/nodewiseProcesses) including `interpDisp.m` and `stack3D.m`.
+6. Ensure that all dependencies are visible to your MATLAB instance by using "Set Path -> Add to Path with Subfolders."
+7. Understand the assumptions of this simulation, boundary conditions, and variables that can be shifted ([described in the next section](https://github.com/LawSmith408/WhiskerAnalyses/blob/main/README.md#simulation-assumptions-and-boundary-conditions)). The primary variables that can be shifted in these simulations are: $${\color{green}\text{geometry}}$$, $${\color{blue}\text{porosity}}$$, and $${\color{red}\text{stiffness}}$$.
+8. Run the specific simulations required.
 
 ## Simulation Assumptions, Boundary Conditions, Independent Variables
 
@@ -105,9 +105,9 @@ The following table summarizes the main adjustable parameters for the whisker-in
 | Variable Description                         | Variable Name         | Units   |
 |---------------------------------------------|------------------------|---------|
 | Whisker length                               | `W.Length`             | mm      |
-| Diameter at base                             | `W.D_base`             | μm      |
+| Diameter at base                             | `W.D_root`             | μm      |
 | Diameter at tip                              | `W.D_tip`              | μm      |
-| Modulus at base                              | `W.E_base`             | MPa     |
+| Modulus at base                              | `W.E_root`             | MPa     |
 | Modulus at tip                               | `W.E_tip`              | MPa     |
 | Porosity at base                            | `Porosity_base`        | %       |
 | Porosity at tip                               | `Porosity_Tip`         | %       |
@@ -121,17 +121,17 @@ For specific simulations, there are different boundary conditions for the point 
 
 | Simulation File Name | Simulation Description | Tip Boundary Condition | Model Outputs |                         
 |---------------------------------------------|----------|----------|--------|
-|`W.Length`| Quasi-static applied transverse load at tip viewing tip displacement                             | $$f_y\vert_{x=L}$$ | $$\overrightarrow{u(x)}$$     |
-|`W.Length`| Quasi-static prescribed transverse displacement at tip                            | $$u_y\vert_{x=L}$$ | $$\sigma_{11}\vert_{x=0}$$     |
-|`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base                            | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$   |
-|`W.Length`| Dynamic prescribed transveerse displacement distance $$a$$ from base for free vibration                       | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$     |
+|`W.appliedForce`| Quasi-static applied transverse load at tip viewing tip displacement                             | $$f_y\vert_{x=L}$$ | $$\overrightarrow{u(x)}$$     |
+|`W.prescribedDisp`| Quasi-static prescribed transverse displacement at tip                            | $$u_y\vert_{x=L}$$ | $$\sigma_{11}\vert_{x=0}$$     |
+|`pluckDist`| Dynamic prescribed transveerse displacement distance $$a$$ from base                            | $$u_y\vert_{x=a}$$ | $$\overrightarrow{u(x,t)}$$ and $$M_z(t)\vert_{x=0}$$   |
+
 
 </details>
 
 
 ## FEA Validation and Mesh-convergence
 
-Overall this GitHub allows a step-by-step tutorial for running simulations on running several non-linear simulations, however with any FEA simulations its critical to first perform a non-linear parametric study and mesh convergence to determine FEA settings and mesh-size.
+This GitHub repository gives a step-by-step tutorials for running simulations on running several non-linear simulations, however with any FEA simulations its critical to first perform a non-linear parametric study and mesh convergence to determine FEA settings and mesh-size.
 
 
 <details>

@@ -157,8 +157,6 @@ system(cmd_str);
 
 % set up abaqus2Matlab
 dir_path = pwd;
-addpath('C:\Users\lsmith\Desktop\SYNC\MatlabDirectory\Files');
-addpath('C:\Users\lsmith\Desktop\SYNC\MatlabDirectory');
 run('Documentation.m');
 cd(dir_path);
 

@@ -76,7 +76,7 @@ fprintf(fileID,'Root, ENCASTRE\n');
 
 fprintf(fileID,'*Step, name=Structural, nlgeom=YES\n');
 fprintf(fileID,'*Static\n');
-fprintf(fileID,'0.1, 1., 1e-05, 0.1\n');
+fprintf(fileID,'0.1, 1., 1e-05, 0.1\n'); %[initial solver timestep / end time / min timestep / max timestep]
 
 if W.prescribedDisp==0
 fprintf(fileID,'*Cload\n');
@@ -110,8 +110,6 @@ system(cmd_str);
 
 % set up abaqus2Matlab
 dir_path = pwd;
-addpath('C:\Users\lsmith\Desktop\SYNC\MatlabDirectory\Files');
-addpath('C:\Users\lsmith\Desktop\SYNC\MatlabDirectory');
 run('Documentation.m');
 cd(dir_path);
 
