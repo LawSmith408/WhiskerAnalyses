@@ -1,0 +1,286 @@
+*Heading
+*Preprint, echo=NO, model=NO, history=NO, contact=NO
+*Part, name=Whisker
+*NODE
+1,	0.00,	0.00,	0.00
+2,	1.00,	0.00,	0.00
+3,	2.00,	0.00,	0.00
+4,	3.00,	0.00,	0.00
+5,	4.00,	0.00,	0.00
+6,	5.00,	0.00,	0.00
+7,	6.00,	0.00,	0.00
+8,	7.00,	0.00,	0.00
+9,	8.00,	0.00,	0.00
+10,	9.00,	0.00,	0.00
+11,	10.00,	0.00,	0.00
+12,	11.00,	0.00,	0.00
+13,	12.00,	0.00,	0.00
+14,	13.00,	0.00,	0.00
+15,	14.00,	0.00,	0.00
+16,	15.00,	0.00,	0.00
+17,	16.00,	0.00,	0.00
+18,	17.00,	0.00,	0.00
+19,	18.00,	0.00,	0.00
+20,	19.00,	0.00,	0.00
+21,	20.00,	0.00,	0.00
+22,	21.00,	0.00,	0.00
+23,	22.00,	0.00,	0.00
+24,	23.00,	0.00,	0.00
+25,	24.00,	0.00,	0.00
+26,	25.00,	0.00,	0.00
+*ELEMENT, TYPE=B31
+1,	1,	2
+2,	2,	3
+3,	3,	4
+4,	4,	5
+5,	5,	6
+6,	6,	7
+7,	7,	8
+8,	8,	9
+9,	9,	10
+10,	10,	11
+11,	11,	12
+12,	12,	13
+13,	13,	14
+14,	14,	15
+15,	15,	16
+16,	16,	17
+17,	17,	18
+18,	18,	19
+19,	19,	20
+20,	20,	21
+21,	21,	22
+22,	22,	23
+23,	23,	24
+24,	24,	25
+25,	25,	26
+*Nset, nset=WholeModel, generate
+  1,  26,   1
+*Elset, elset=WholeModel, generate
+  1,  25,   1
+*Elset, elset=EL_1
+1,
+*Elset, elset=EL_2
+2,
+*Elset, elset=EL_3
+3,
+*Elset, elset=EL_4
+4,
+*Elset, elset=EL_5
+5,
+*Elset, elset=EL_6
+6,
+*Elset, elset=EL_7
+7,
+*Elset, elset=EL_8
+8,
+*Elset, elset=EL_9
+9,
+*Elset, elset=EL_10
+10,
+*Elset, elset=EL_11
+11,
+*Elset, elset=EL_12
+12,
+*Elset, elset=EL_13
+13,
+*Elset, elset=EL_14
+14,
+*Elset, elset=EL_15
+15,
+*Elset, elset=EL_16
+16,
+*Elset, elset=EL_17
+17,
+*Elset, elset=EL_18
+18,
+*Elset, elset=EL_19
+19,
+*Elset, elset=EL_20
+20,
+*Elset, elset=EL_21
+21,
+*Elset, elset=EL_22
+22,
+*Elset, elset=EL_23
+23,
+*Elset, elset=EL_24
+24,
+*Elset, elset=EL_25
+25,
+*Orientation, name=Ori-1
+1., 0., 0., 0., 1., 0.
+1, 0.
+*Beam Section, elset=EL_1, material=Mat_1, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_2, material=Mat_2, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_3, material=Mat_3, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_4, material=Mat_4, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_5, material=Mat_5, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_6, material=Mat_6, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_7, material=Mat_7, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_8, material=Mat_8, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_9, material=Mat_9, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_10, material=Mat_10, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_11, material=Mat_11, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_12, material=Mat_12, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_13, material=Mat_13, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_14, material=Mat_14, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_15, material=Mat_15, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_16, material=Mat_16, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_17, material=Mat_17, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_18, material=Mat_18, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_19, material=Mat_19, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_20, material=Mat_20, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_21, material=Mat_21, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_22, material=Mat_22, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_23, material=Mat_23, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_24, material=Mat_24, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*Beam Section, elset=EL_25, material=Mat_25, temperature=GRADIENTS, section=CIRC
+0.037500
+0.,0.,-1.
+*End Part
+*Assembly, name=Assembly
+*Instance, name=Whisker-1, part=Whisker
+*End Instance
+*Nset, nset=Root, instance=Whisker-1
+ 1,
+*Nset, nset=Tip, instance=Whisker-1
+ 26,
+*End Assembly
+*Material, name=Mat_1
+*Elastic
+3340.00, 0.4
+*Material, name=Mat_2
+*Elastic
+3202.22, 0.4
+*Material, name=Mat_3
+*Elastic
+3064.45, 0.4
+*Material, name=Mat_4
+*Elastic
+2926.68, 0.4
+*Material, name=Mat_5
+*Elastic
+2788.90, 0.4
+*Material, name=Mat_6
+*Elastic
+2651.12, 0.4
+*Material, name=Mat_7
+*Elastic
+2513.35, 0.4
+*Material, name=Mat_8
+*Elastic
+2375.57, 0.4
+*Material, name=Mat_9
+*Elastic
+2237.80, 0.4
+*Material, name=Mat_10
+*Elastic
+2100.03, 0.4
+*Material, name=Mat_11
+*Elastic
+1962.25, 0.4
+*Material, name=Mat_12
+*Elastic
+1824.48, 0.4
+*Material, name=Mat_13
+*Elastic
+1686.70, 0.4
+*Material, name=Mat_14
+*Elastic
+1548.93, 0.4
+*Material, name=Mat_15
+*Elastic
+1411.15, 0.4
+*Material, name=Mat_16
+*Elastic
+1273.38, 0.4
+*Material, name=Mat_17
+*Elastic
+1135.60, 0.4
+*Material, name=Mat_18
+*Elastic
+997.82, 0.4
+*Material, name=Mat_19
+*Elastic
+860.05, 0.4
+*Material, name=Mat_20
+*Elastic
+722.28, 0.4
+*Material, name=Mat_21
+*Elastic
+584.50, 0.4
+*Material, name=Mat_22
+*Elastic
+446.72, 0.4
+*Material, name=Mat_23
+*Elastic
+308.95, 0.4
+*Material, name=Mat_24
+*Elastic
+171.18, 0.4
+*Material, name=Mat_25
+*Elastic
+33.40, 0.4
+*Boundary
+Root, ENCASTRE
+*Step, name=Structural, nlgeom=YES
+*Static
+0.1, 1., 1e-05, 0.1
+*Boundary
+Tip, 2, 2, 7.000000
+*Restart, write, frequency=0
+*FILE FORMAT, ASCII
+*NODE FILE
+U
+*EL FILE
+S
+*End Step
