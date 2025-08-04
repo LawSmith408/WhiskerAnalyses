@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 04-Aug-2025   Time 09:09:56
+   Abaqus 2020                                  Date 04-Aug-2025   Time 09:22:06
    For use by MAX PLANCK under license from Dassault Systemes or its subsidiary.
 
 
@@ -184,20 +184,17 @@
   *beamsection, elset=ASSEMBLY_WHISKER-1_EL_25, temperature=GRADIENTS, material=MAT_25, section=CIRCULAR
   *boundary
   *boundary
-  *boundary
-  *boundary
   *Step, name=Structural, nlgeom=YES
   *Step, name=Structural, nlgeom=YES
   *Step, name=Structural, nlgeom=YES
   *static
-  *boundary
   *nodefile
   *elfile
   *endstep
   *boundary
   *Step, name=Structural, nlgeom=YES
   *static
-  *boundary
+  *cload
   *endstep
 
 
@@ -498,12 +495,12 @@ LOCAL TO GLOBAL NODE AND ELEMENT MAPS
 
      JOB TIME SUMMARY
        USER TIME (SEC)      =  0.10000    
-       SYSTEM TIME (SEC)    =   0.0000    
-       TOTAL CPU TIME (SEC) =  0.10000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =  0.20000    
        WALLCLOCK TIME (SEC) =          1
 1
 
-   Abaqus 2020                                  Date 04-Aug-2025   Time 09:10:00
+   Abaqus 2020                                  Date 04-Aug-2025   Time 09:22:09
    For use by MAX PLANCK under license from Dassault Systemes or its subsidiary.
 
                                                                                                STEP    1  INCREMENT    1
@@ -569,11 +566,12 @@ LOCAL TO GLOBAL NODE AND ELEMENT MAPS
 
 
                               ANALYSIS COMPLETE
+                              WITH     10 WARNING MESSAGES ON THE MSG FILE
 
 
 
      JOB TIME SUMMARY
        USER TIME (SEC)      =  0.30000    
-       SYSTEM TIME (SEC)    =  0.10000    
-       TOTAL CPU TIME (SEC) =  0.40000    
-       WALLCLOCK TIME (SEC) =          0
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =  0.30000    
+       WALLCLOCK TIME (SEC) =          1

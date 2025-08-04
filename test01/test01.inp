@@ -275,8 +275,9 @@ Root, ENCASTRE
 *Step, name=Structural, nlgeom=YES
 *Static
 0.1, 1., 1e-05, 0.1
-*Boundary
-Tip, 2, 2, 7.000000
+*Cload
+Tip, 3, 0.000000
+Tip, 6, 0.000020
 *Restart, write, frequency=0
 *FILE FORMAT, ASCII
 *NODE FILE
