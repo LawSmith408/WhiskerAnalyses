@@ -8,8 +8,8 @@ addpath dep
 W.Length = 25;                  %[mm] whisker length
 W.D_root = 0.075;               %[mm] root diameter of whisker
 W.E_root = 3340;                %[MPa] elastic modulus at root
-W.E_tip = W.E_root;                 %[MPa] elastic modulus at tip
-W.rho0 =   1200e-12;          %[Mg/mm^3] keratin density
+W.E_tip = W.E_root;             %[MPa] elastic modulus at tip
+W.rho0 =   1200e-12;            %[Mg/mm^3] keratin density
 
 W.D_tip = 0.025;                %[mm] root diameter of whisker
 W.nEl = 20;                     %[] number of elements in whisker
@@ -32,7 +32,7 @@ Porosity_Tip  = [0  0  0  0  0]/100;
 for i = 1:length(Porosity_Tip)
 
 %Simulate whisker
-W.fName = 'scan01';             %[] analysis name
+W.fName = 'scan01';                          %[] analysis name
 W.rho_tip = W.rho0*(1-Porosity_Tip(i));                %[Mg/mm^3] whisker density
 W.rho_root= W.rho0*(1-Porosity_Root(i));
 simOut{i} = simulateWhiskerModal(W);
@@ -47,11 +47,13 @@ end
 
 figure('Position', [385 208 570 415]);
 
+%compute the ratio of root to tip stiffness for each whisker type
 Rho_Ratio = (1-Porosity_Tip)./(1-Porosity_Root);
 
 clor = brewermap(length(simOut)+3,'GnBu');
 clor(1:3,:) = [];
 
+%plot the frequencies for each grading ratio
 for i = 1:2:length(Porosity_Tip)
     if Rho_Ratio(i)==1
 plot(simOut{i}.F(1:5),'s--','markersize',5,'color',clor(i,:),'displayname',...

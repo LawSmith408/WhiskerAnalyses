@@ -14,14 +14,6 @@ W.rho0 =   1200e-12;          %[Mg/mm^3] keratin density
 W.D_tip = 0.025;                %[mm] root diameter of whisker
 W.nEl = 20;                     %[] number of elements in whisker
 
-% alpha = [1.875 4.694 7.885];
-% I_whisker = pi*W.D_root^4/64;
-% A_whisker = pi*W.D_root^2/4;
-% V_whisker = W.Length*A_whisker;
-% m_whisker = A_whisker*W.rho_root;
-% 
-% omega = alpha.^2 * sqrt(W.E_root*I_whisker/(m_whisker*W.Length^4)); %rad/sec
-% omega = omega/(2*pi);
 
 %% Scan
 
@@ -29,6 +21,7 @@ W.nEl = 20;                     %[] number of elements in whisker
 Porosity_Root = [80 60 40 20 0]/100;
 Porosity_Tip  = [0  0  0  0  0]/100;
 
+%define a vector number of elements to simulate
 nElV = [4 8 12 16 20 24 28 32];
 
 for i = 1:length(nElV)
@@ -41,10 +34,6 @@ W.nEl = nElV(i);
 simOut{i} = simulateWhiskerModal(W);
 
 end
-
-% %% Check against analytical prediction
-% fprintf('\n\nAnalytical Prediction = %1.4f Hz\n',omega(1));
-% fprintf('FEA Prediction = %1.4f Hz\n',simOut{3}.F(1));
 
 %% Plot the frequencies for different grading ratios
 

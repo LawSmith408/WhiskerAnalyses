@@ -37,13 +37,13 @@ colormap(autumn(20));
 axis(axisLim(simDataFGM.mesh.Points + simDataFGM.U(:,:,end))+[-1 8 0 2 -1 0])
 clim([min(simDataFGM.S1(:,end)) max(simDataFGM.S1(:,end))]);
 
-%plot and label FGM whisker
+%compute the deformed vertex positions for plotting
 V = simDataFGM.mesh.Points + simDataFGM.U(:,:,end) + [5 0 0];
+
+%plot and label FGM whisker
 patch('Faces',simDataFGM.mesh.Elements,'Vertices',V,'linewidth',3,...
     'facevertexcdata',[simDataFGM.S1(:,end); 0],'edgecolor','interp',...
     'displayname','nonlinear FEA'); hold on
-
-% text(V(floor(W.nEl/2),1)+2,V(floor(W.nEl/2),2),'FGM','fontsize',14,'HorizontalAlignment','center')
 
 c=colorbar('location','eastoutside');
 c.Label.String='\sigma_{11} [MPa]';
