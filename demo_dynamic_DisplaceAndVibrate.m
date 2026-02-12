@@ -6,17 +6,21 @@
 clear; clc; close all
 addpath dep
 
+% define the different whisker types to simulate
 Labels  = {sprintf('Adult\nElephant'),'Rat',sprintf('Grey\nSeal'),'Uniform-E'};
 Labels2  = {'Adult Elephant','Rat','Grey Seal','Baseline'};
-
 clor = brewermap(length(Labels),'set1');
+
+%set up the material properties for each whisker type
 E_tip   = [0.05 3.96 5.6 3.34]*1e3;
 E_root  = [3.34 3.34 3.34 3.34]*1e3;
 P_tip   = [0 0 0 0];
 P_root  = [0 0 0 0];
 
+%compute the ratio of root to tip stiffness for each whisker type
 PropRatio = E_root./E_tip;
 
+%Plot the material properties of each whisker type
 figure
 plot([0 1],[E_root(1) E_tip(1)]*1e-3,'linewidth',2,'color',clor(1,:)); hold on
 plot([0 1],[E_root(2) E_tip(2)]*1e-3,'linewidth',2,'color',clor(2,:)); hold on
@@ -31,48 +35,53 @@ legend(Labels2)
 %Whisker Dimensions and Material Properties
 W.Length = 25;                  %[mm] whisker length
 W.D_root = 0.075;               %[mm] root diameter of whisker
-Rho0= 1200e-12;
+Rho0= 1200e-12;                 %[Mg/mm^3] density of solid keratin
 
 W.D_tip = 0.025;                %[mm] root diameter of whisker
 W.nEl = 19;                     %[] number of elements in whisker
 
 %Boundary Conditions - NOTE only one of these may be nonzero
 W.appliedMoment = 0*1e-5;         %[N*mm] applied moment
-W.appliedForce =  0*1e-5;             %[N] vertical force applied
-W.prescribedDisp =  0.25;           %[mm] vertical displacement applied
+W.appliedForce =  0*1e-5;          %[N] vertical force applied
+W.prescribedDisp =  0.25;          %[mm] vertical displacement applied
 
-W.simTime = 1.5;
-W.simDT = 1e-4;
+W.simTime = 1.5;            %[sec] total simulation time
+W.simDT = 1e-4;             %[sec] simulation time step
 
 %% Scan across pluck distance
 W.fName = 'temp';             %[] analysis name
 
+%initialize figure for plotting
 Fig = figure('position',[108 301 800 360]);
 
+%define the pluck distances to simulate, in normalized whisker length (0 = at root, 1 = at tip)
 pluckDist = [1 0.8 0.6];
 [Rmat,Cmat] = meshgrid(PropRatio,pluckDist);
 
-
 FirstMode = [];
 
+%index over whisker types
 for j = 1:length(Labels)
 
+    %index over pluck distances
 for i = length(pluckDist):-1:1
 
     %determine which node to pluck
     W.pluckNode = ceil((W.nEl+1)*pluckDist(i));
 
-    %simulate Graded whisker
+    %set the material properties for this whisker type
     W.rho_root = Rho0*(1-P_root(j));
     W.rho_tip =  Rho0*(1-P_tip(j));
     W.E_root = E_root(j);
     W.E_tip = E_tip(j);
 
+    %simulate the pluck and release of the whisker
     simDataFGM{i,j} = simulateWhisker_PluckReleaseInterp(W);
 
     %extract frequency data
     [f,M,P] = performFFT(simDataFGM{i,j}.T,simDataFGM{i,j}.MZ);
     
+    %plot the frequency data, and identify the first mode
     if i==1
         plot(f,M,'-','color',clor(j,:),"LineWidth",1.5,'handlevisibility','on',...
             'displayname',Labels{j}); hold on
@@ -88,11 +97,12 @@ for i = length(pluckDist):-1:1
     legend('location','northeast')
     drawnow()
 
+    %identify peaks in the frequency spectrum, and extract the first mode properties
     peaksWindow = 1:floor(length(M)/2);
     [peaks,ipeaks] = findpeaks(M(peaksWindow));
 
+    %for simplicity, we will just take the largest peak as the first mode
     [~,mostLikelyPeak] = max(peaks);
-
     mostLikelyPeak = 1;
 
     plot(f(ipeaks),M(ipeaks),'r.','MarkerSize',15,'HandleVisibility','off')
