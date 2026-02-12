@@ -2,11 +2,10 @@
  <h1 align="center">WhiskerAnalyses: Functionally Graded Whisker Simulations</h1>
 
 <p align="center">
-  <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith*</strong></a> ·
-  <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz*</strong></a>
+  <a href="https://is.mpg.de/person/lsmith"><strong>Lawrence T. Smith</strong></a> ·
+  <a href="https://hi.is.mpg.de/person/aschulz"><strong>Andrew K. Schulz</strong></a>
 </p>
 
-<p align="center"><strong>*</strong> denotes equal contributions to this repository.</p>
 <p align="center">
   <a href="https://arxiv.org/abs/2504.07143">
     <img src="https://img.shields.io/badge/arXiv-Preprint-B31B1B.svg" alt="arXiv Preprint">
@@ -29,7 +28,7 @@
 ## General Information
 This repository contains a workflow for simulating various whisker dynamics and statics as described in the [paper](https://arxiv.org/abs/2504.07143). For related data (e.g., indentation, SEM, microCT), please refer to the <a href="https://doi.org/10.17617/3.ROQPWZ">Edmond data repository</a> (repository will be available upon paper acceptance). This repository demonstrates a streamlined workflow for analyzing **functionally graded whiskers** under various loading scenarios using the nonlinear finite element platform **Abaqus**, with minimal manual intervention. 
 
-💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability. This repo is designed to be vieewed in Light mode.
+💡 Tip: You can switch between [Light and Dark mode](https://github.com/settings/appearance) in your GitHub profile settings for better readability. This repo is designed to be viewed in Light mode.
 
 Running any script in this directory initiates a fully automated pipeline that:
 - Sets up simulations programmatically in **MATLAB** (including meshing, material properties, and boundary conditions),
@@ -140,7 +139,7 @@ This GitHub repository gives a step-by-step tutorials for running simulations on
 
 For running validation for your simulation, there is a quick study to understand if linear or non-linear methods are necessary: 
 
-1. **Finite-element validation**: Start with a simple beam tip displacement test to determine if the simulation's boundary conditions are satisfied and it behaves as a eulerian beam. 
+1. **Finite-element validation**: Start with a simple beam tip displacement test to determine if the simulation's boundary conditions are satisfied and it behaves as an Eulerian beam under small displacements. 
 
 ### FEA mesh-convergence study
 
@@ -158,7 +157,7 @@ MeshConvergenceStudy_Modal.m
 
 Overall in the following sections there are simple (quasi-static), semi-complex (natural vibration modes), and complex (dynamic plucking sims that are possible. Overall the following tasks, figures, and output comparisons are possible: 
 1. **[Normalized tip displacement:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#normalized-tip-displacement)** Quasi-static non-linear finite element model with a controlled tip displacement value allowing comparison between whiskers. 
-2. **[Normalized tip force:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#normalized-tip-force)** Quasi-static non-linear finite element model with a controlled tip force allowing comparision between whiskers
+2. **[Normalized tip force:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#normalized-tip-force)** Quasi-static non-linear finite element model with a controlled tip force allowing comparison between whiskers
 3. **[Density gradient vibration:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#density-gradient-vibration)** Dynamic vibration analysis displaying density gradient eigenfrequencies and eigenmodes.
 4. **[Stiffness gradient vibration:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#stiffness-gradient-vibration)**  Dynamic vibration analysis displaying stiffness gradient eigenfrequencies and eigenmodes.
 5. **[Frequency Analysis:](https://github.com/LawSmith408/WhiskerAnalyses?tab=readme-ov-file#frequency-analysis)** Allow analysis and comparison of frequencies between different whisker conditions. 
